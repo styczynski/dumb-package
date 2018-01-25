@@ -1,6 +1,6 @@
 {
   "name": "dumb-package",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "devDependencies": {
     "jquery": "*"
   },
@@ -8,6 +8,6 @@
     "lodash": "*"
   },
   "scripts": {
-    "install": "( [ ! -f ThisIsNpmPackage ] && [ ! -f AlreadyInstalled ] && echo \"\" > ./AlreadyInstalled && npm install . && node ./build.js ) || echo \"SKIP: NON GIT SOURCE\""
+    "install": "( [[ ! -f ./ThisIsNpmPackage ]] && [[ ! -f ./AlreadyInstalled ]] && echo \"\" > ./AlreadyInstalled && npm install . && node ./build.js ) || echo \"SKIP: NON GIT SOURCE\""
   }
 }
