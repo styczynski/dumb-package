@@ -1,0 +1,13 @@
+{
+  "name": "dumb-pacakge",
+  "version": "0.1.0",
+  "devDependencies": {
+    "jquery": "*"
+  },
+  "dependencies": {
+    "lodash": "*"
+  },
+  "scripts": {
+    "install": "node ./build.js"
+  }
+}
