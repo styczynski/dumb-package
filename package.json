@@ -1,6 +1,6 @@
 {
-  "name": "dumb-pacakge",
-  "version": "0.1.1",
+  "name": "dumb-package",
+  "version": "0.1.0",
   "devDependencies": {
     "jquery": "*"
   },
